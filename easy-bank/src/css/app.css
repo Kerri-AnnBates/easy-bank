@@ -343,6 +343,7 @@ template {
 
 html, body {
   font-family: "Public Sans", sans-serif;
+  font-size: 18px;
 }
 
 body {
@@ -369,7 +370,7 @@ li {
 }
 
 .button {
-  width: 150px;
+  width: 200px;
   border-radius: 25px;
   padding: 10px 20px;
   border: none;
@@ -380,4 +381,24 @@ li {
 .cta {
   background: #31d35c;
   color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+.navigation a {
+  color: #9698a6;
+  padding: 0 10px;
+  margin: 0 10px;
 }
