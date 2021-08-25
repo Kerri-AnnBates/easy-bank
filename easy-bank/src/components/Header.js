@@ -8,14 +8,14 @@ const Header = () => {
                 <div className="logo"><img src={logo} alt="Easy Bank" /></div>
                 <div className="nav-wrapper">
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Blog</li>
-                        <li>Careers</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
                     </ul>
                 </div>
-                <div className="cta"><button>Request Invite</button></div>
+                <div><button className="cta button">Request Invite</button></div>
             </div>
         </header>
     )
