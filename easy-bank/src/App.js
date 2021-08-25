@@ -1,4 +1,5 @@
-import './App.css';
+import "./sass/app.scss";
+
 import LandingPage from './pages/LandingPage';
 
 const App = () => <LandingPage />;
