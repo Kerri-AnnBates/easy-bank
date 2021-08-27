@@ -384,6 +384,7 @@ li {
 
 .cta {
   background: #31d35c;
+  background: linear-gradient(90deg, #31d35c 0%, #2bb7da 100%);
   color: #fff;
 }
 

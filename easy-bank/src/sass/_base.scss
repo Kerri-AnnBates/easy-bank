@@ -46,6 +46,8 @@ li {
 
 .cta {
     background: #31d35c;
+    // Make color scheme reusable. mixin?
+    background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
     color: #fff;
 }
 
