@@ -406,3 +406,15 @@ li {
   padding: 0 10px;
   margin: 0 10px;
 }
+
+.hero {
+  height: 500px;
+}
+
+.intro-image-wrapper {
+  width: 50%;
+}
+
+.intro-image {
+  background-image: url("../images/bg-intro-desktop.svg");
+}
