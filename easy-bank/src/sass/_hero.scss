@@ -1,12 +1,20 @@
 .hero {
-    overflow: hidden;
     position: relative;
 }
 .intro {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     height: 450px;
+
+    img {
+        width: 650px;
+    }
+}
+
+.img-wrapper {
+    z-index: 1;
+    margin-right: -200px;
 }
 
 .intro-message {
