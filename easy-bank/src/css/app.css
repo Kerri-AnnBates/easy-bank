@@ -357,6 +357,10 @@ body {
   margin: auto;
 }
 
+p {
+  line-height: 1.5rem;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -473,4 +477,20 @@ header {
 
 .content_header {
   width: 70%;
+  margin-bottom: 30px;
+}
+
+.content_feature {
+  justify-content: space-evenly;
+}
+
+.feature-block {
+  padding: 10px 15px;
+}
+.feature-block p {
+  font-size: 16px;
+}
+
+.icon-container {
+  margin-bottom: 15px;
 }
