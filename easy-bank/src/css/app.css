@@ -343,7 +343,7 @@ template {
 
 html, body {
   font-family: "Public Sans", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #9698a6;
 }
 
@@ -359,6 +359,7 @@ body {
 
 p {
   line-height: 1.5rem;
+  margin: 0;
 }
 
 img {
@@ -406,6 +407,14 @@ section {
 
 .flex {
   display: flex;
+}
+
+.sm-text {
+  font-size: 12px;
+}
+
+.sm-heading {
+  font-size: 19px;
 }
 
 header {
@@ -495,4 +504,42 @@ header {
 
 .icon-container {
   margin-bottom: 15px;
+}
+
+.articles {
+  background-color: #fafafa;
+}
+
+.article_content {
+  margin-top: 25px;
+}
+
+.article_block {
+  flex: 1;
+  margin: 0 10px;
+  width: 25%;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.article_block:first-of-type {
+  margin-left: 0;
+}
+.article_block:last-of-type {
+  margin-right: 0;
+}
+.article_block .image-container {
+  height: 180px;
+  overflow: hidden;
+}
+.article_block h3 {
+  margin-bottom: 10px;
+}
+
+.author {
+  margin: 10px 0;
+}
+
+.article_excerpt {
+  padding: 20px;
 }

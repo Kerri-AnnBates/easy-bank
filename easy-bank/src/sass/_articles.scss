@@ -1,0 +1,40 @@
+.articles {
+    background-color: $veryLightGrey;
+}
+.article_content {
+    margin-top: 25px;
+}
+
+.article_block {
+    flex: 1;
+    margin: 0 10px;
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+
+    &:first-of-type {
+        margin-left: 0;
+    }
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+
+    .image-container {
+        height: 180px;
+        overflow: hidden;
+    }
+
+    h3 {
+        margin-bottom: 10px;
+    }
+}
+
+.author {
+    margin: 10px 0;
+}
+
+.article_excerpt {
+    padding: 20px;
+}
