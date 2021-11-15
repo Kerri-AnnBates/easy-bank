@@ -493,11 +493,12 @@ header {
 }
 
 .content_feature {
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .feature-block {
   padding: 10px 15px;
+  width: 200px;
 }
 .feature-block p {
   font-size: 16px;
