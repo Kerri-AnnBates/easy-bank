@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="flex footer-content">
                     <div className="footer-primary">
                         <div className="flex">
-                            <div>
+                            <div className="flex-even">
                                 <img alt="Easy Bank logo" src={logo} />
                                 <div className="social">
                                     <a href="#" title="Facebook"><img alt="Facebook" src={facebook} /></a>
@@ -23,13 +23,13 @@ const Footer = () => {
                                     <a href="#" title="Instagram"><img alt="Instagram" src={instagram} /></a>
                                 </div>
                             </div>
-                            <div className="links flex">
-                                <div>
+                            <div className="links flex flex-even">
+                                <div className="flex-even">
                                     <a href="#">About Us</a>
                                     <a href="#">Contact</a>
                                     <a href="#">Blog</a>
                                 </div>
-                                <div>
+                                <div className="flex-even">
                                     <a href="#">Careers</a>
                                     <a href="#">Support</a>
                                     <a href="#">Privacy Policy</a>

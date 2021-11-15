@@ -72,6 +72,10 @@ section {
     flex-wrap: wrap;
 }
 
+.flex-even {
+    flex-grow: 1;
+}
+
 .sm-text {
     font-size: 12px;
 }

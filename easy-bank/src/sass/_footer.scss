@@ -17,6 +17,8 @@ footer {
 }
 
 .links {
+    flex-grow: 2;
+    
     a {
         color: $white;
         display: block;
@@ -35,5 +37,5 @@ footer {
 
 .copyrights {
     color: $greyishBlue;
-    margin-top: 20px;
+    margin-top: 40px;
 }

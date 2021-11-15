@@ -410,6 +410,10 @@ section {
   flex-wrap: wrap;
 }
 
+.flex-even {
+  flex-grow: 1;
+}
+
 .sm-text {
   font-size: 12px;
 }
@@ -562,6 +566,9 @@ footer a {
   margin-right: 15px;
 }
 
+.links {
+  flex-grow: 2;
+}
 .links a {
   color: #fff;
   display: block;
@@ -579,5 +586,5 @@ footer a {
 
 .copyrights {
   color: #9698a6;
-  margin-top: 20px;
+  margin-top: 40px;
 }
