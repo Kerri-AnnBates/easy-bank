@@ -407,6 +407,7 @@ section {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .sm-text {
@@ -551,4 +552,15 @@ footer {
 }
 footer a {
   color: #fff;
+  display: block;
+  margin: 15px;
+}
+
+.footer-content {
+  justify-content: space-between;
+}
+
+.copyrights {
+  color: #9698a6;
+  margin-top: 20px;
 }

@@ -5,5 +5,16 @@ footer {
 
     a {
         color: $white;
+        display: block;
+        margin: 15px;
     }
+}
+
+.footer-content {
+    justify-content: space-between;
+}
+
+.copyrights {
+    color: $greyishBlue;
+    margin-top: 20px;
 }
