@@ -2,16 +2,26 @@ footer {
     background-color: $darkBlue;
     padding: 20px 0;
     color: $white;
+    
+    a {
+        display: inline-block;
+    }
+}
 
+.social {
+    margin-top: 50px;
+
+    a {
+        margin-right: 15px;
+    }
+}
+
+.links {
     a {
         color: $white;
         display: block;
         margin: 15px;
     }
-}
-
-.footer-content {
-    // justify-content: space-between;
 }
 
 .footer-primary {

@@ -16,11 +16,11 @@ const Footer = () => {
                             <div>
                                 <img alt="Easy Bank logo" src={logo} />
                                 <div className="social">
-                                    <img alt="Facebook" src={facebook} />
-                                    <img alt="Youtube" src={youtube} />
-                                    <img alt="Twitter" src={twitter} />
-                                    <img alt="Pinterest" src={pinterest} />
-                                    <img alt="Instagram" src={instagram} />
+                                    <a href="#" title="Facebook"><img alt="Facebook" src={facebook} /></a>
+                                    <a href="#" title="Youtube"><img alt="Youtube" src={youtube} /></a>
+                                    <a href="#" title="Twitter"><img alt="Twitter" src={twitter} /></a>
+                                    <a href="#" title="Pinterest"><img alt="Pinterest" src={pinterest} /></a>
+                                    <a href="#" title="Instagram"><img alt="Instagram" src={instagram} /></a>
                                 </div>
                             </div>
                             <div className="links flex">

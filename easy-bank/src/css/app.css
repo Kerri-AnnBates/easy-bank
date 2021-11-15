@@ -552,6 +552,17 @@ footer {
   color: #fff;
 }
 footer a {
+  display: inline-block;
+}
+
+.social {
+  margin-top: 50px;
+}
+.social a {
+  margin-right: 15px;
+}
+
+.links a {
   color: #fff;
   display: block;
   margin: 15px;
