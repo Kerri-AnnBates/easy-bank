@@ -557,8 +557,13 @@ footer a {
   margin: 15px;
 }
 
-.footer-content {
-  justify-content: space-between;
+.footer-primary {
+  flex-grow: 2;
+}
+
+.footer-secondary {
+  flex-grow: 1;
+  text-align: right;
 }
 
 .copyrights {
