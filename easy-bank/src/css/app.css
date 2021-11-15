@@ -543,3 +543,12 @@ header {
 .article_excerpt {
   padding: 20px;
 }
+
+footer {
+  background-color: #2d314d;
+  padding: 20px 0;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
