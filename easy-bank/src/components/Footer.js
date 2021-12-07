@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/logo.svg';
+import logo from '../images/logo-foot.svg';
 import facebook from '../images/icon-facebook.svg';
 import twitter from '../images/icon-twitter.svg';
 import pinterest from '../images/icon-pinterest.svg';
