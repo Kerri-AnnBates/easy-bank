@@ -1,5 +1,4 @@
 import React from 'react';
-import introDesktop from "../images/bg-intro-desktop.svg";
 import introPhone from "../images/image-mockups.png";
 
 const Hero = () => {
