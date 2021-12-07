@@ -355,6 +355,8 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: auto;
+  padding: 0 20px;
+  position: relative;
 }
 
 p {
@@ -433,6 +435,26 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width: 900px) {
+  .header-container {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-wrapper {
+    width: 100%;
+    position: absolute;
+    width: 90%;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+  }
+  .nav-wrapper.open {
+    display: block;
+  }
+}
 
 .navigation {
   display: flex;
@@ -443,12 +465,46 @@ header {
   padding: 0 10px;
   margin: 0 10px;
 }
+@media screen and (max-width: 900px) {
+  .navigation {
+    flex-direction: column;
+    background: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .navigation li {
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header-action {
+    display: none;
+  }
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+
+.mobile-nav {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .mobile-nav {
+    display: block;
+  }
+}
 
 .hero {
   position: relative;
   background-color: #fafafa;
   height: 450px;
   padding: 0;
+  overflow: hidden;
 }
 
 .intro {
