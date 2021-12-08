@@ -1,28 +1,53 @@
 .hero {
     position: relative;
     background-color: #fafafa;
-    height: 450px;
     padding: 0;
-    // overflow: hidden;
 }
 .intro {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 450px;
 
     img {
         width: 600px;
+
+        @media screen and (max-width: 900px) {
+            margin: 0 auto;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        flex-direction: column-reverse;
+    }
+}
+
+.hero, .intro {
+    height: 450px;
+
+    @media screen and (max-width: 900px) {
+        height: 740px;
     }
 }
 
 .img-wrapper {
     z-index: 1;
     margin-right: -200px;
+
+    @media screen and (max-width: 900px) {
+        width: 100%;
+        margin-right: 0;
+    }
 }
 
 .intro-message {
     width: 30%;
+
+    @media screen and (max-width: 900px) {
+        width: 100%;
+        margin-top: 100px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
 }
 
 .bg-wrapper {
@@ -31,6 +56,13 @@
     right: -150px;
     top: 0;
     height: 100%;
+
+    @media screen and (max-width: 900px) {
+        top: -70px;
+        height: 55%;
+        right: -16px;
+        width: 100%;
+    }
 }
 
 .bg-intro {
@@ -40,4 +72,8 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+
+    @media screen and (max-width: 900px) {
+        transform: scale(1.5);
+    }
 }
