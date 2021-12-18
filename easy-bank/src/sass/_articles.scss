@@ -3,6 +3,11 @@
 }
 .article_content {
     margin-top: 25px;
+    justify-content: space-between;
+
+    @media screen and (max-width: 550px) {
+        justify-content: center;
+    }
 }
 
 .article_block {
@@ -13,17 +18,24 @@
     border-radius: 5px;
     overflow: hidden;
 
-    &:first-of-type {
-        margin-left: 0;
-    }
+    @include responsive-blocks;
 
-    &:last-of-type {
-        margin-right: 0;
+    @media screen and (max-width: 900px) {
+        flex: none;
+        margin-bottom: 20px;
+        // width: 45%;
     }
 
     .image-container {
         height: 180px;
         overflow: hidden;
+
+        // img {
+        //     @media screen and (max-width: 1200px) {
+        //         height: 100%;
+        //         width: auto;
+        //     }
+        // }
     }
 
     h3 {
