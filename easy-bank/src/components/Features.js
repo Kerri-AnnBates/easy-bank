@@ -4,7 +4,7 @@ import budgetIcon from "../images/icon-budgeting.svg";
 import onlineIcon from "../images/icon-online.svg";
 import onboardingIcon from "../images/icon-onboarding.svg";
 
-const Content = () => {
+const Features = () => {
     return (
         <section className="content">
             <div className="wrapper">
@@ -48,4 +48,4 @@ const Content = () => {
     )
 }
 
-export default Content;
+export default Features;

@@ -1,6 +1,6 @@
 import React from "react";
 import Articles from "../components/Articles";
-import Content from "../components/Content";
+import Features from "../components/Features";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -10,7 +10,7 @@ const LandingPage = () => {
         <>
             <Header />
             <Hero />
-            <Content />
+            <Features />
             <Articles />
             <Footer />
         </>
