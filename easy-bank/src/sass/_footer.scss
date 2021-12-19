@@ -3,16 +3,38 @@ footer {
     padding: 20px 0;
     color: $white;
     
+    @media screen and (max-width: 700px) {
+        text-align: center;
+    }
+
     a {
         display: inline-block;
+    }
+
+    .flex {
+        @media screen and (max-width: 700px) {
+            display: block;
+        }
+    }
+
+    img {
+        margin: auto;
     }
 }
 
 .social {
     margin-top: 50px;
 
+    @media screen and (max-width: 700px) {
+        margin: 30px 0;
+    }
+
     a {
         margin-right: 15px;
+
+        @media screen and (max-width: 700px) {
+            margin: 0 15px;
+        }
     }
 }
 
@@ -22,7 +44,7 @@ footer {
     a {
         color: $white;
         display: block;
-        margin: 15px;
+        margin: 15px 0;
     }
 }
 
@@ -33,6 +55,16 @@ footer {
 .footer-secondary {
     flex-grow: 1;
     text-align: right;
+
+    @media screen and (max-width: 700px) {
+        text-align: center;
+    }
+
+    button {
+        @media screen and (max-width: 700px) {
+            margin-top: 20px;
+        }    
+    }
 }
 
 .copyrights {
