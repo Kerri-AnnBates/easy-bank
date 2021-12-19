@@ -9,7 +9,7 @@ const Hero = () => {
                     <div className="intro-message">
                         <h1>Next generation digital banking</h1>
                         <p>Take your financial life online. Your Easybank account will be a one-stop-shop  for spending, saving, budgeting, investing, and much more.</p>
-                        <div><button className="cta button">Request Invite</button></div>
+                        <div className='cta-wrapper'><button className="cta button">Request Invite</button></div>
                     </div>
                     <div className="img-wrapper">
                         <img src={introPhone} />

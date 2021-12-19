@@ -430,7 +430,7 @@ section {
 }
 
 header {
-  padding: 10px 0;
+  padding: 20px 0;
   background-color: #fff;
   position: relative;
   z-index: 2;
@@ -516,7 +516,7 @@ header {
   justify-content: space-between;
 }
 .intro img {
-  width: 600px;
+  width: 700px;
 }
 @media screen and (max-width: 750px) {
   .intro img {
@@ -530,7 +530,7 @@ header {
 }
 
 .hero, .intro {
-  height: 450px;
+  height: 600px;
 }
 @media screen and (max-width: 750px) {
   .hero, .intro {
@@ -564,7 +564,7 @@ header {
 .bg-wrapper {
   width: 70%;
   position: absolute;
-  right: -150px;
+  right: -180px;
   top: 0;
   height: 100%;
 }
@@ -589,6 +589,10 @@ header {
   .bg-intro {
     transform: scale(1.5);
   }
+}
+
+.cta-wrapper {
+  margin-top: 30px;
 }
 
 .content {
