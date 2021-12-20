@@ -1,10 +1,30 @@
-import React from 'react';
+import React, { useLayoutEffect, useState, useRef } from 'react';
 import apiIcon from "../images/icon-api.svg";
 import budgetIcon from "../images/icon-budgeting.svg";
 import onlineIcon from "../images/icon-online.svg";
 import onboardingIcon from "../images/icon-onboarding.svg";
 
 const Features = () => {
+    const [showEl, setshowEl] = useState(false);
+    const featureBoxDiv = useRef(null);
+
+    useLayoutEffect(() => {
+        const topPosition = featureBoxDiv.current.getBoundingClientRect().top;
+        console.log("Top position: ", topPosition);
+
+        const onScroll = () => {
+            const scrollPosition = window.scrollY + window.innerHeight;
+
+            if (topPosition < scrollPosition) {
+                console.log("animate to show boxes");
+            }
+        }
+
+        window.addEventListener('scroll', onScroll);
+
+        return () => window.removeEventListener('scroll', onScroll);
+    }, []);
+
     return (
         <section className="content">
             <div className="wrapper">
@@ -14,7 +34,7 @@ const Features = () => {
                 </div>
 
                 <div className="content_feature flex">
-                    <div className="feature-block">
+                    <div className="feature-block" ref={featureBoxDiv}>
                         <div className="icon-container">
                             <img src={onlineIcon} alt="Online Banking Icon" />
                         </div>
