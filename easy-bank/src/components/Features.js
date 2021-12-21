@@ -1,22 +1,21 @@
-import React, { useLayoutEffect, useState, useRef } from 'react';
+import React, { useLayoutEffect, useRef } from 'react';
 import apiIcon from "../images/icon-api.svg";
 import budgetIcon from "../images/icon-budgeting.svg";
 import onlineIcon from "../images/icon-online.svg";
 import onboardingIcon from "../images/icon-onboarding.svg";
 
 const Features = () => {
-    const [showEl, setshowEl] = useState(false);
     const featureBoxDiv = useRef(null);
 
+    // Show elements once user scroll to section.
     useLayoutEffect(() => {
-        const topPosition = featureBoxDiv.current.getBoundingClientRect().top;
-        console.log("Top position: ", topPosition);
+        const topPositionofElement = featureBoxDiv.current.getBoundingClientRect().top;
 
         const onScroll = () => {
-            const scrollPosition = window.scrollY + window.innerHeight;
+            const currentScrollPosition = window.scrollY + window.innerHeight;
 
-            if (topPosition < scrollPosition) {
-                console.log("animate to show boxes");
+            if (topPositionofElement < currentScrollPosition) {
+                featureBoxDiv.current.classList.add("show-features");
             }
         }
 
@@ -33,8 +32,8 @@ const Features = () => {
                     <p>We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
                 </div>
 
-                <div className="content_feature flex">
-                    <div className="feature-block" ref={featureBoxDiv}>
+                <div className="content_feature flex" ref={featureBoxDiv}>
+                    <div className="feature-block">
                         <div className="icon-container">
                             <img src={onlineIcon} alt="Online Banking Icon" />
                         </div>

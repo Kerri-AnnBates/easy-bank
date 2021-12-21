@@ -611,6 +611,7 @@ header {
 .feature-block {
   padding: 10px 15px;
   width: 25%;
+  opacity: 0;
 }
 @media screen and (max-width: 900px) {
   .feature-block {
@@ -628,6 +629,11 @@ header {
 
 .icon-container {
   margin-bottom: 15px;
+}
+
+.show-features .feature-block {
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
 
 .articles {
