@@ -532,9 +532,9 @@ header {
 .hero, .intro {
   height: 600px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   .hero, .intro {
-    padding-top: 100px;
+    height: 700px;
   }
 }
 
@@ -546,6 +546,14 @@ header {
   .img-wrapper {
     width: 100%;
     margin-right: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .img-wrapper {
+    width: 100%;
+    margin-right: 0;
+    top: -130px;
+    position: absolute;
   }
 }
 
@@ -576,6 +584,11 @@ header {
     width: 100%;
   }
 }
+@media screen and (max-width: 510px) {
+  .bg-wrapper {
+    top: -400px;
+  }
+}
 
 .bg-intro {
   background-image: url("../images/bg-intro-desktop.svg");
@@ -587,7 +600,7 @@ header {
 }
 @media screen and (max-width: 750px) {
   .bg-intro {
-    transform: scale(1.4);
+    transform: scale(1.3);
   }
 }
 
