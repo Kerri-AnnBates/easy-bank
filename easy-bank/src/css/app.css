@@ -532,9 +532,9 @@ header {
 .hero, .intro {
   height: 600px;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
   .hero, .intro {
-    height: 740px;
+    padding-top: 100px;
   }
 }
 
@@ -555,7 +555,7 @@ header {
 @media screen and (max-width: 750px) {
   .intro-message {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 80px;
     padding-bottom: 50px;
     text-align: center;
   }
@@ -570,9 +570,9 @@ header {
 }
 @media screen and (max-width: 750px) {
   .bg-wrapper {
-    top: -70px;
-    height: 55%;
-    right: -16px;
+    top: -302px;
+    height: 100%;
+    right: -50px;
     width: 100%;
   }
 }
@@ -587,7 +587,7 @@ header {
 }
 @media screen and (max-width: 750px) {
   .bg-intro {
-    transform: scale(1.5);
+    transform: scale(1.4);
   }
 }
 
