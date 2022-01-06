@@ -1,10 +1,18 @@
 .content {
     background-color: $lightGreyishBlue;
+
+    @media screen and (max-width: 550px) {
+        text-align: center;
+    }
 }
 
 .content_header {
     width: 70%;
     margin-bottom: 50px;
+
+    @media screen and (max-width: 550px) {
+        width: 100%;
+    }
 }
 
 .content_feature {
@@ -18,8 +26,18 @@
 
     @include responsive-blocks;
 
+    @media screen and (max-width: 550px) {
+        margin-bottom: 30px;
+    }
+
     p {
         font-size: 16px;
+    }
+}
+
+.feature-block:last-of-type {
+    @media screen and (max-width: 550px) {
+        margin-bottom: 0;
     }
 }
 
