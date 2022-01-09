@@ -12,7 +12,7 @@ const Hero = () => {
                         <div className='cta-wrapper'><button className="cta button">Request Invite</button></div>
                     </div>
                     <div className="img-wrapper">
-                        <img src={introPhone} />
+                        <img src={introPhone} alt="Banking online phone" />
                     </div>
                 </div>
             </div>

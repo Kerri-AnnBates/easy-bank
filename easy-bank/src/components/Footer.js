@@ -25,14 +25,14 @@ const Footer = () => {
                             </div>
                             <div className="links flex flex-even">
                                 <div className="flex-even">
-                                    <a href="#">About Us</a>
-                                    <a href="#">Contact</a>
-                                    <a href="#">Blog</a>
+                                    <a href="#" title="About Us">About Us</a>
+                                    <a href="#" title="Contact">Contact</a>
+                                    <a href="#" title="Blog">Blog</a>
                                 </div>
                                 <div className="flex-even">
-                                    <a href="#">Careers</a>
-                                    <a href="#">Support</a>
-                                    <a href="#">Privacy Policy</a>
+                                    <a href="#" title="Careers">Careers</a>
+                                    <a href="#" title="Support">Support</a>
+                                    <a href="#" title="Privacy Policy">Privacy Policy</a>
                                 </div>
                             </div>
                         </div>

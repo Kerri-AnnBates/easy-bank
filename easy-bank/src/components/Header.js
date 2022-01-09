@@ -18,11 +18,11 @@ const Header = () => {
                     <div className="mobile-nav"><button className="menu-button" onClick={() => handleMenu()}><img src={isOpen ? closeIcon : hamburger} alt="hamburger" /></button></div>
                     <div className={`nav-wrapper ${isOpen ? "open" : ""}`}>
                         <ul className="navigation">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Careers</a></li>
+                            <li><a href="#" title="Home">Home</a></li>
+                            <li><a href="#" title="About">About</a></li>
+                            <li><a href="#" title="Contact">Contact</a></li>
+                            <li><a href="#" title="Blog">Blog</a></li>
+                            <li><a href="#" title="Careers">Careers</a></li>
                         </ul>
                     </div>
                     <div className="header-action"><button className="cta button">Request Invite</button></div>
